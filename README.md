@@ -1,3 +1,2 @@
 # Go-Learnings
 
-# Go Funadamentals
