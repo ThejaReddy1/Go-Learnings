@@ -11,13 +11,13 @@ import (
 	Defer is commonly used to close files, release resources, or unlock mutexes.
 */
 func printName(name string) {
-	fmt.Println("name: ", name)
+	fmt.Println("Name: ", name)
 }
 func printRollNo(rollno int) {
 	fmt.Println("roll no: ", rollno)
 }
 func printAddress(address string) {
-	fmt.Println("address: ", address)
+	fmt.Println("Address: ", address)
 }
 
 func main() {

@@ -1,4 +1,4 @@
-package main;
+package main
 
 import (
 	"fmt"
@@ -45,7 +45,7 @@ func main() {
 	var query int
 	var radius float64
 
-	fmt.Print("Enter the radius of the clircle: ")
+	fmt.Print("Enter the radius of the circle: ")
 	fmt.Scanf("%f", &radius)
 	fmt.Print("Choose an option :- \n1: Area\n 2: Perimeter\n 3: Diameter\n ")
 	fmt.Scanf("%d", &query)
