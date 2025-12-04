@@ -13,7 +13,7 @@ import "fmt"
 	-> Channels are passed by reference, by default in Go.
 	-> Functions are passed by reference, by default in Go.
 */
-func swap( a *int, b * int) {
+func swap( a *int, b *int) {
 	*a = *a + *b
 	*b = *a - *b 
 	*a = *a - *b 
